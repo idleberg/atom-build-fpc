@@ -1,0 +1,48 @@
+{
+  "name": "build-fpc",
+  "version": "0.0.0",
+  "description": "Atom Build provider for fpc, compiles Pascal and Object Pascal",
+  "repository": "https://github.com/idleberg/atom-build-fpc",
+  "license": "MIT",
+  "keywords": [
+    "buildprovider",
+    "fpc",
+    "free pascal",
+    "object pascal",
+    "pascal"
+  ],
+  "main": "lib/provider.js",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Transpiles F#",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "package-deps": [
+    "build"
+  ],
+  "dependencies": {
+    "atom-package-deps": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "coffeelint-stylish": "^0.1.2",
+    "eslint": "^3.19.0",
+    "eslint-config-atom-build": "^4.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-jsonlint": "^1.2.0",
+    "gulp-lesshint": "^3.0.1",
+    "jshint": "^2.9.3"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  }
+}
