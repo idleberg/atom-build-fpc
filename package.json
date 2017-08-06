@@ -1,6 +1,6 @@
 {
   "name": "build-fpc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Atom Build provider for fpc, compiles Pascal and Object Pascal",
   "repository": "https://github.com/idleberg/atom-build-fpc",
   "license": "MIT",
