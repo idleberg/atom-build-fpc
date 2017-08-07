@@ -43,6 +43,10 @@ $ yarn || npm install
 
 ## Usage
 
+### Prerequisites
+
+Make sure [Free Pascal](https://www.freepascal.org/) is installed properly and that `fpc` is in your PATH [environmental variable](http://superuser.com/a/284351/195953).
+
 ### Build
 
 Before you can build, select an active target with your preferred build option.
