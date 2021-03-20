@@ -1,3 +1,4 @@
+import meta from '../package.json';
 import { configSchema, getConfig } from './config';
 import { EventEmitter } from 'events';
 import { satisfyDependencies } from 'atom-satisfy-dependencies';
@@ -66,6 +67,6 @@ export function provideBuilder() {
 // This package depends on build, make sure it's installed
 export function activate() {
   if (getConfig('manageDependencies') === true) {
-    satisfyDependencies('build-fpc');
+    satisfyDependencies(meta.name);
   }
 }
