@@ -1,10 +1,10 @@
 # build-fpc
 
-[![apm](https://img.shields.io/apm/l/build-fpc.svg?style=flat-square)](https://atom.io/packages/build-fpc)
-[![apm](https://img.shields.io/apm/v/build-fpc.svg?style=flat-square)](https://atom.io/packages/build-fpc)
-[![apm](https://img.shields.io/apm/dm/build-fpc.svg?style=flat-square)](https://atom.io/packages/build-fpc)
+[![apm](https://flat.badgen.net/apm/license/build-fpc)](https://atom.io/packages/build-fpc)
+[![apm](https://flat.badgen.net/apm/v/build-fpc)](https://atom.io/packages/build-fpc)
+[![apm](https://flat.badgen.net/apm/dl/build-fpc)](https://atom.io/packages/build-fpc)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-fpc)](https://circleci.com/gh/idleberg/atom-build-fpc)
-[![David](https://img.shields.io/david/idleberg/atom-build-fpc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-fpc)
+[![David](https://flat.badgen.net/david/dev/idleberg/atom-build-fpc)](https://david-dm.org/idleberg/atom-build-fpc?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for `fpc`, compiles Pascal and Object Pascal.
 
